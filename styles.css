@@ -1,0 +1,76 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: black;
+	color: #fff;
+	display: grid;
+	place-items: center;
+	height: 100vh;
+	font-family: 'Press Start 2P', system-ui;
+}
+.container {
+	max-width: 550px;
+	width: 100%;
+}
+.header {
+	position: relative;
+}
+.d-flex {
+	display: flex;
+	justify-content: space-around;
+}
+
+.btn {
+	border: none;
+	background-color: #eee;
+	color: #222;
+	font-size: 16px;
+	font-family: 'press start 2p';
+	padding: 12px;
+}
+.heading {
+	font-size: 32px;
+	text-align: center;
+	padding: 100px 0;
+	border-bottom: 5px solid #eee;
+}
+.d-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.guess-score {
+	display: block;
+	text-align: center;
+	background-color: transparent;
+	border: 4px solid #eee;
+	font-size: 32px;
+	width: 50%;
+	padding: 20px 10px;
+	font-family: 'press start 2p';
+	margin-bottom: 20px;
+	color: #eee;
+}
+.left-text {
+	padding: 20px;
+}
+.right-text {
+	padding: 20px;
+}
+.number {
+	background-color: #eee;
+	color: #333;
+	width: 20%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 32px;
+	padding: 20px;
+	position: absolute;
+	top: 75%;
+	left: 40%;
+}
+.bg-green {
+	background-color: green;
+}
